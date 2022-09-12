@@ -21,7 +21,7 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 
 ## Preparation
 
-* All actions expected to be executed in repo folder.
+* All actions expected to be executed in repository folder.
 * Install required packages with `pipenv install --dev` or `make setup` in terminal.
 * Activate virtual enviromnent with `pipenv shell`
 * For next step run mlflow server with following command: 
