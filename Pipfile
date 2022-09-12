@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+argparse = "*"
+mlflow = "*"
+prefect = "==2.0b5"
+hyperopt = "*"
+sklearn = "*"
+pandas = "*"
+datetime = "*"
+numpy = "*"
+black = "*"
+pre-commit = "*"
+
+[dev-packages]
+pytest = "*"
+pylint = "*"
+black = "*"
+isort = "*"
+
+[requires]
+python_version = "3.9"
